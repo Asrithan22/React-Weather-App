@@ -1,0 +1,10 @@
+.weather { margin: 40px auto; padding: 20px; max-width: 300px; max-height: 300px; border-radius: 6px; border: 1px solid #fff; color: #fff; background-color: #ccc; }
+.weather .top { display: flex; justify-content: space-between; align-items: center; }
+.weather .weather-icon { margin: 0 auto; max-width: 100px; float: right; }
+.weather .city { margin: 0; padding: 0; font-size: 22px; line-height: 28px; color: #000; }
+.weather .weather-description { margin: 0; padding: 0; font-size: 14px; line-height: 15px; color: #000; } 
+.weather .temp { display: table-cell; margin: 0; padding: 0; vertical-align: middle; font-size: 52px; line-height: 65px; color: #000; }
+.weather .details { display: table-cell; padding-left: 40px; }
+.weather .bottom { display: table; }
+.weather .parameter-row .parameter-label { margin: 0; padding: 0; font-size: 14px; line-height: 18px; color: #000; }
+.weather .parameter-row .parameter-value { margin: 0; padding: 0; font-size: 14px; line-height: 18px; color: #000; font-weight: 500; }
